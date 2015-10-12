@@ -1,0 +1,12 @@
+include *.rst
+include setup.py _version_helper.py
+recursive-include autoslug *.py
+
+# RTFD needs at least its own file for subsequent builds
+recursive-include requirements *.txt
+
+recursive-include docs *
+recursive-exclude docs *.pyc
+recursive-exclude docs *.pyo
+prune docs/_build
+prune docs/_themes
