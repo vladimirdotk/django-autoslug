@@ -4,3 +4,4 @@ _version_helper.py
 autoslug/__init__.py
 autoslug/fields.py
 autoslug/settings.py
+requirements-rtfd.txt
